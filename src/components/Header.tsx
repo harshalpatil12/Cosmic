@@ -237,8 +237,7 @@ const Header = () => {
 
           {/* Search & Mobile Menu */}
           <div className="flex items-center space-x-4">
-            {/* Search Box */}
-            <div className="relative">
+            {/* <div className="relative">
               {isSearchOpen ? (
                 <form onSubmit={handleSearchSubmit} className="flex items-center">
                   <Input
@@ -282,7 +281,7 @@ const Header = () => {
               <Search className="h-5 w-5" />
             </Button>
               )}
-            </div>
+            </div> */}
             
             {/* Mobile Menu Button */}
             <Button
